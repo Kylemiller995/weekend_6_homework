@@ -56,7 +56,7 @@ public class ShopTest {
     public void testProfitSum(){
         shop.addItemToStock(drums);
         shop.addItemToStock(sheetMusic);
-        assertEquals(shop.sumPotentialProfit(stock), 30.00);
+        assertEquals(shop.sumPotentialProfit(), 30.00);
 
     }
 

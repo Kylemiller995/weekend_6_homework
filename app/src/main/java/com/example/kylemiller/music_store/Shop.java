@@ -25,7 +25,7 @@ public class Shop {
         stock.remove(i);
     }
 
-    public void sumPotentialProfit(){
+    public double sumPotentialProfit(){
         double sum = 0.00;
         for (Sellable item: stock){
             sum += item.markUp();
